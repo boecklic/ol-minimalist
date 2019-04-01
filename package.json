@@ -1,0 +1,22 @@
+{
+  "name": "ol-minimalist",
+  "version": "1.0.0",
+  "description": "Minimalistic App using OpenLayers and Swisstopo Data",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development",
+    "start:dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "closure-webpack-plugin": "^2.0.1",
+    "google-closure-compiler": "^20190301.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "ol": "file:libs/openlayers/build/ol",
+    "ol-mapbox-style": "file:libs/ol-mapbox-style"
+  }
+}
